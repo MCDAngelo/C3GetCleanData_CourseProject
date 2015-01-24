@@ -45,7 +45,7 @@ names(all_data) <- make.names(f_names, unique = TRUE)
 #used fixed = TRUE to exclude meanFreq() columns
 #and ignore.case = FALSE to exclude columns with Mean in the name
 mean_indicies <- grep("mean()", f_names, fixed = TRUE, ignore.case = FALSE)
-sd_indicies <- grep("std()", f_names, fixed = TRUE, , ignore.case = FALSE)
+sd_indicies <- grep("std()", f_names, fixed = TRUE, ignore.case = FALSE)
 
 #create new data frame subset_data which only contains the 
 #columns with information on Subject, Activity, means, and sds
