@@ -5,7 +5,9 @@ This repository contains the files relevant to my course project for the Courser
 ## Contents of Repository
 This repository contains the following files:
 
-1. run_analysis.R
+###1. this README.md file
+
+###2. run_analysis.R
 
 - The run_analysis.R script is written with the assumption that the working directory for this script contains a sub-directory, "UCI HAR Dataset", containing the Samsung data downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
@@ -21,13 +23,13 @@ iv. Appropriately labels the data set with descriptive variable names.
 
 v. From the data set created in step 4, the script creates a second, independent tidy data set (tidy_data_means.txt) with the average of each variable for each activity and each subject.
 
-2. tidy_data_means.txt
+###3. tidy_data_means.txt
 
 - This is the output from the data set created in step 5 of run_analysis.R.
 
 - Contains the averages of each variable for each activity and each subject.
 
-3. CodeBook.md
+###4. CodeBook.md
 
 - This is a code book that describes the variables, the data, and any transformations or work that was performed to clean up the data used in run_analysis.R on the train and test data located in the UCI HAR Dataset.
 
