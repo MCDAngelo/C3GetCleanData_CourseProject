@@ -10,7 +10,7 @@ The raw data contains measurements from 30 volunteers between the ages of 19-48 
 ###Signals
 The 3-axial time domain signals from the smartphone's accelerometer and gyroscope were captured at a constant rate of 50 Hz and subsequently filtered to remove noise. The acceleration signal was separated into body and gravity acceleration signals using another filter. Measures of body linear acceleration and angular velocity were derived in time to obtain Jerk signals. The magnitude of these signals were calculated using the Euclidean norm. A Fast Fourier Transform was applied to some of these time domain signals to obtain frequency domain signals.
 
-The full set of variables estimated from the signals are listed din the features.txt file.  For my purpose, the mean value of each measurement, as well as the standard deviation for each measurement were estimated and stored in variables labeled with `mean()` and `std()`, respectively.  No units were reported, as all features were normalized and bounded between [-1,1].
+The full set of variables estimated from the signals are listed din the features.txt file.  For my purpose, the mean value of each measurement, as well as the standard deviation for each measurement were estimated and stored in variables labeled with 'mean()' and 'std()', respectively.  No units were reported, as all features were normalized and bounded between [-1,1].
 
 ##Data Transformations
 The raw data sets were processed with the run_analysis.R script to create the tidy data set tidy_data_means.txt.
