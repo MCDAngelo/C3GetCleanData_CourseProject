@@ -7,7 +7,7 @@ This repository contains the following files:
 
 1. run_analysis.R
 
-- The run_analysis.R script is written with the assumption that this script is located in a directory which also contains a sub-directory, "UCI HAR Dataset", containing the data downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+- The run_analysis.R script is written with the assumption that the working directory for this script contains a sub-directory, "UCI HAR Dataset", containing the Samsung data downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 - This file is an R script that does the following things as per the assignment guidelines, most notably, this script produces the tidy_data_means.txt file described below.
 
@@ -31,4 +31,4 @@ v. From the data set created in step 4, the script creates a second, independent
 
 - This is a code book that describes the variables, the data, and any transformations or work that was performed to clean up the data used in run_analysis.R on the train and test data located in the UCI HAR Dataset.
 
-- The code book refers the reader to some additional information contained in the features_info.txt and README.txt files that are downloaded along with the data and contained within the UCI HAR Dataset directory.
+- The code book refers the reader to some additional information contained in the features_info.txt and README.txt files that are downloaded along with the Samsung data and contained within the UCI HAR Dataset directory.
